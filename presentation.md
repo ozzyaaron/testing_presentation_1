@@ -40,6 +40,9 @@ It's Less Boring Than Stamp Collecting!
 
 *See features/activities/template_access.feature*
 
+* Declarative vs Imperative scenarios
+* Sharing variables within scenarios for nicer steps
+
 !
 
 # Writing Step Definitions
@@ -47,6 +50,9 @@ It's Less Boring Than Stamp Collecting!
 *See features/step_definitions/activities/template_steps.rb*
 
 *See features/step_definitions/general_steps.rb*
+
+* Demo World()
+* Reusing steps
 
 !
 
@@ -89,6 +95,9 @@ It's Less Boring Than Stamp Collecting!
 * Context/Describe are the same
 * it "", it { }, its(:sym) { } sometimes some are better than others
 * it is implied by the subject/describe
+* let() & let!()
+* subject {}
+* before {}, before do end, before(:each), before(:all), after...
 * Test & Context/Describe strings concatenate for docs
 
 !
@@ -130,6 +139,15 @@ It's Less Boring Than Stamp Collecting!
 * Warnings on checkins in model, controller, lib without spec or feature changes (by 06/2012)
 * Automated staging deploys for green builds by year end (coverage dependent)
 * Push button production deployment - the future! :)
+
+!
+
+# Coming Soon ...
+
+* How to use Factories
+* How to use FactoryGirl
+* Best practices for acceptance tests (Cukes)
+* Best practices for functional tests (RSpec)
 
 !
 
