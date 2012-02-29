@@ -74,11 +74,22 @@ It's Less Boring Than Stamp Collecting!
 
 # Inner Circle (RSpec)
 
-* Usually starts with controllers and routes
+* RSpec is a BDD tool that is used for unit testing
+* Test the outcome/behaviour rather than what it's doing
+* Usually starts with controllers and routes and moves in to models/libs
 * Make the test for the necessary method call from your outer circle
 * Write the calls in your test as you'd like to use them
 * You're writing an API, don't be lazy!
 * Doubles are great, they help you not be lazy and the outer circle makes sure the interfaces match
+
+!
+
+# Using RSpec
+
+* Context/Describe are the same
+* it "", it { }, its(:sym) { } sometimes some are better than others
+* it is implied by the subject/describe
+* Test & Context/Describe strings concatenate for docs
 
 !
 
@@ -96,6 +107,7 @@ It's Less Boring Than Stamp Collecting!
 * It's full stack so bang for buck is great. 
 * It's easier to understand.
 * Also do some model and controller tests as appropriate.
+* Big IMPACT with little effort!
 
 !
 
@@ -112,11 +124,12 @@ It's Less Boring Than Stamp Collecting!
 
 # The Goal/s?
 
+* Have fun. Testing should make you feel like you're doing more, more confidently.
 * \> 90% test coverage by year end
 * Support and Sales writing *Cucumber style* documentation before feature work begins
-* Warnings on checkins in model, controller, lib without spec or feature changes
-* Automated staging deploys for green builds
-* Push button production deployment :)
+* Warnings on checkins in model, controller, lib without spec or feature changes (by 06/2012)
+* Automated staging deploys for green builds by year end (coverage dependent)
+* Push button production deployment - the future! :)
 
 !
 
