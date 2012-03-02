@@ -105,8 +105,12 @@ It's Less Boring Than Stamp Collecting!
 # Different Tools for Different Parts
 
 * You're starting from the outside of the application and writing tests as you reach into the models
-* Cucumber tests full stack but primarily drives views and controllers
-* RSpec tests full stack too, but primarily better for controller edges cases and full model tests
+* Cucumber tests full stack
+  * Primarily drives views and controllers
+  * It's generally about best-case scenarios
+* RSpec can do full stack too
+  * Primarily better for controller edges cases and full model tests
+  * Sweep up whats leftover from the best-case tests (Cukes)
 
 !
 
@@ -115,8 +119,10 @@ It's Less Boring Than Stamp Collecting!
 * I'm suggesting we focus primarily on Cucumber testing
 * It's full stack so bang for buck is great. 
 * It's easier to understand.
-* Also do some model and controller tests as appropriate.
+* Also do some model and controller tests as appropriate - using RSpec.
 * Big IMPACT with little effort!
+* Money creation paths - user signup, activities, planning, supplier features
+* Money retention paths - reporting, messaging, weather, etc
 
 !
 
